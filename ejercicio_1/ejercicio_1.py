@@ -42,8 +42,7 @@ def generar_resumen_sensores(lista_sensores_limpios, umbral_temperatura):
         # Si supera el umbral, guardamos su id
         if sensor["temperatura"] > umbral_temperatura:
             sensores_alerta.append(sensor["sensor_id"])
-
-    # Promedio = suma / cantidad (evitamos dividir por cero)
+ 
     if cantidad > 0:
         promedio = suma / cantidad
     else:
