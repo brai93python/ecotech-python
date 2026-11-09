@@ -1,0 +1,24 @@
+[
+    {
+        "tipo": "PanelSolar",
+        "nombre": "Panel Solar Aurora",
+        "precio": 450.0,
+        "stock": 20,
+        "potencia_watts": 400,
+        "eficiencia": 21.5
+    },
+    {
+        "tipo": "PanelSolar",
+        "nombre": "Panel Solar Sol Max",
+        "precio": 620.0,
+        "stock": 10,
+        "potencia_watts": 550,
+        "eficiencia": 22.8
+    },
+    {
+        "tipo": "DispositivoEcologico",
+        "nombre": "Cargador Solar Portatil",
+        "precio": 85.0,
+        "stock": 35
+    }
+]
